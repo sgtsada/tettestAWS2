@@ -1,4 +1,4 @@
-var As = [300, 500];
+var As = [300, 500];//tes
 var Ws = [100, 180, 260];
 var mx = 0;
 var my = 0;
@@ -67,7 +67,7 @@ function SetParam() {
 	Windex = (Windex + 1) % Ws.length;
 	wid = Ws[Windex];
 	saveWs[countIndex] = wid;
-
+//test
 	startX1 = 10;
 	startX2 = startX1 + wid;
 	startY1 = 10;
